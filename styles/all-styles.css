@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 10vh;
+    background-color: white;
+    display: inline-block;
+}
+
+.nav {
+    font-size: 1.2rem;
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+.link {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin: 8px 40px;
+}
+
+.footer {
+    background-color: #444;
+    text-align: center;
+    color: #fff;
+    height: 10vh;
+    line-height: 10vh;
+}
