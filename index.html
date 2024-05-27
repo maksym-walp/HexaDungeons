@@ -2,8 +2,7 @@
 <html lang="ua">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HexaDungeons</title>
     <link rel="stylesheet" href="./styles/all-styles.css">
@@ -11,33 +10,43 @@
 <body>
 
 <header class="header">
-    <a class="link" href="index.html"><img class="logo" src="./images/zhovtogariachiy.png" alt="Microphone logo"></a>
-
-    <nav class="nav">
-        <a href="about.html" class="link">Про проект</a>
-        <a href="social.html" class="link">Соцальний договір</a>
-        <a href="contacts.html" class="link">Зворотній зв'язок</a>
+    <a class="header__logo-link" href="index.html">
+        <img class="header__logo" src="./images/zhovtogariachiy.png" alt="Microphone logo">
+    </a>
+    <nav class="header__nav">
+        <a href="about.html" class="header__nav-link">Про проект</a>
+        <a href="social.html" class="header__nav-link">Соцальний договір</a>
+        <a href="contacts.html" class="header__nav-link">Зворотній зв'язок</a>
     </nav>
 </header>
 
 <main>
-    <h1 class="title">HexaDungeons</h1>
+    <h1 class="main__title">HexaDungeons</h1>
 
-    <section class="section section-1">
-        <h2 class="subtitle">Настільна рольова гра на базі DnD</h2>
-        <p>HexaDungeons - НРІ система розроблена на базі гри підземелля та дракони. Відрізняється кількома механіка та лором. Створено Богачем Макимом та гравцями його сесій.</p>
-        <img src="./images/game-1.jpg" alt="photo from the game">
+    <section class="section section--1">
+        <div class="section__content">
+            <h2 class="section__subtitle">Настільна рольова гра на базі DnD</h2>
+            <p class="section__text">HexaDungeons - НРІ система розроблена на базі гри підземелля та дракони. Відрізняється кількома механіка та лором. Створено Богачем Макимом та гравцями його сесій.</p>
+        </div>
+        <div class="section__image-wrapper">
+            <img class="section__image" src="./images/game-1.jpg" alt="photo from the game">
+        </div>
     </section>
 
-    <section class="section section-2" >
-        <h3>Приєднуйся до наших ігор!</h3>
-        <a href="join.html" class="join-button">Приєднатись</a>
-        <img src="./images/game-2.jpg" alt="photo from the game">
+    <section class="section section--2">
+        <div class="section__image-wrapper">
+            <img class="section__image" src="./images/game-2.jpg" alt="photo from the game">
+        </div>
+        <div class="section__content">
+            <h3 class="section__subtitle">Приєднуйся до наших ігор!</h3>
+            <a href="join.html" class="section__join-button">Приєднатись</a>
+        </div>
     </section>
 </main>
 
 <footer class="footer">
-    © Maksym Lun, Жовтогарячий мікрофон
+    <p class="footer__text">© Maksym Lun, Жовтогарячий мікрофон</p>
 </footer>
+
 </body>
 </html>
