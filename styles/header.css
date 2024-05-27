@@ -1,0 +1,27 @@
+.header {
+    background-color: #444;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 8vh;
+}
+
+.header__logo {
+    height: 6vh;
+    margin: 20px;
+    background-color: white;
+}
+
+.header__nav {
+    text-align: center;
+}
+
+.header__nav-link {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin: auto 40px;
+}

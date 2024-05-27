@@ -2,31 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About project</title>
-    <link rel="stylesheet" href="./styles/all-styles.css">
+    <title>Mate academy</title>
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/header.css">
 </head>
 <body>
-<header class="header">
-    <a href="index.html"><img class="logo" src="./images/zhovtogariachiy.png" alt="Microphone logo"></a>
 
-    <nav class="nav">
-        <a href="about.html" class="link">Про проект</a>
-        <a href="social.html" class="link">Соцальний договір</a>
-        <a href="contacts.html" class="link">Зворотній зв'язок</a>
+<header class="header">
+    <a class="header__logo-link" href="index.html">
+        <img class="header__logo" src="./images/zhovtogariachiy.png" alt="Microphone logo">
+    </a>
+    <nav class="header__nav">
+        <a href="about.html" class="header__nav-link">Про проект</a>
+        <a href="social.html" class="header__nav-link">Соцальний договір</a>
+        <a href="contacts.html" class="header__nav-link">Зворотній зв'язок</a>
     </nav>
 </header>
 
-<main>
-    <p>Наші ігри зазвичай відбуваються у вигаданому всесвіті - Лунокус. Це всесвіт, що складається із 6 паралелтних вимірів, серед яких є як абсолютно вигадані фентезійні світи з гномами, ельфами, богами, магією та іншими дивами, так і реалістичні світи схожі до нашого.</p>
-    <p>Основним із цих 6 світів є Мундус - тут і відбуваються майже всі наші ігри. Це світ, який населяють найрізноманіштніші вигадані раси, тут існує магія, боги, демони та всілякі вигадані істоти як наприклад пегаси чи дракони.</p>
-    <p>Тут ви можете прочитати  про те як відбуваються наші пригоди:</p>
-    <a href="">АВЕ Вірантія!</a>
-    <a href="">Шлях паладина</a>
-    <a href="">Байки старого альбатроса</a>
+<h1 class="heading" id="page-top">Sticky header</h1>
+
+<nav class="nav">
+    <a href="#section-1" class="nav__link">Section 1</a>
+    <a href="#section-2" class="nav__link">Section 2</a>
+    <a href="#section-3" class="nav__link">Section 3</a>
+    <a href="#section-4" class="nav__link">Section 4</a>
+</nav>
+
+<main class="main">
+    <section class="section" id="section-1">
+
+        <div class="container">
+            <div><a href="#page-top">Go to top</a></div>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur asperiores tempore cum. Laboriosam molestias asperiores praesentium illum dolores! Natus iure aliquid quas dolor laudantium mollitia placeat dolore, eum ex. Saepe.
+        </div>
+    </section>
+    <section class="section section-2" id="section-2">
+        <div class="container">
+            <div><a href="#page-top">Go to top</a></div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium voluptas recusandae explicabo, vero nesciunt quae ratione similique mollitia quas molestiae nostrum expedita optio. Odio neque aliquam deleniti sequi, officia ipsam!
+        </div>
+    </section>
+    <section class="section" id="section-3">
+        <div class="container">
+            <div><a href="#page-top">Go to top</a></div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi accusamus esse facere illum deserunt deleniti tempora unde corporis dolorum rem, natus vel. Aliquam ipsum est doloribus facilis consequatur voluptas consequuntur.
+        </div>
+    </section>
+    <section class="section section-4" id="section-4">
+        <div class="container">
+            <div><a href="#page-top">Go to top</a></div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem earum optio et illo aliquid maiores voluptatibus obcaecati tenetur eum, nihil quos assumenda laborum tempora sit numquam consequuntur eveniet eos voluptatem.
+        </div>
+    </section>
 </main>
 
+<div class="scrollTop">
+    <a class="scrollTop__link" href="#page-top">↑</a>
+</div>
+
 <footer class="footer">
-    © Maksym Lun, Жовтогарячий мікрофон
+    Footer Content
 </footer>
 </body>
 </html>
